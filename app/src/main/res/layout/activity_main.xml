@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ui_bg_mainmenu"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#95A5A6"
+        android:gravity="center_horizontal"
+        android:text="MAIN MENU"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_start_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="handleMenghitung"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_background_color_menu"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Menghitung" />
+
+    <Button
+        android:id="@+id/bt_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_background_color_menu"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:onClick="handleQuiz"
+        android:text="QUIZ"/>
+
+    <Button
+        android:id="@+id/bt_jenisbangunruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleJenis"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/button_background_color_menu"
+        android:textColor="@color/white"
+        android:text="Jenis-jenis Bangun ruang" />
+
+    <Button
+        android:id="@+id/bt_youtube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleYoutube"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:backgroundTint="@color/button_background_color_menu"
+        android:text="Youtube" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleTentang"
+        android:text="Tentang Aplikasi"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_background_color_menu"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/texthallo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="117dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:text="Hallo Sobat Matematika "
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/tampil_nama_awal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.747"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/tampil_nama_awal"
+            android:layout_width="138dp"
+            android:layout_height="46dp"
+            android:layout_below="@id/texthallo"
+            android:layout_marginStart="180sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="80dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="180sp" />
+    </RelativeLayout>
+
+</LinearLayout>

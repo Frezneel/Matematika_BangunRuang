@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/uibackgroundall"
+    tools:context=".tampilbola">
+
+    <TextView
+        android:id="@+id/JudulTampilBola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HASIL PERHITUNGAN RUMUS BOLA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tampil_jaribola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tampil_RUMUS_Bola"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="RUMUS"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/rumusbolatampil"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/rumusbolatampil2"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/hasilbola"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
